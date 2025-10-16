@@ -9,7 +9,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 
-const assetMap = [{"id":"hero-image","url":"https://images.pexels.com/photos/34301930/pexels-photo-34301930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"High-End Gaming PC Interior with Colorful RGB Lights"},{"id":"feature-image-1","url":"https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Colleagues discussing data and strategy in an office meeting."},{"id":"feature-image-2","url":"https://images.pexels.com/photos/7964501/pexels-photo-7964501.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Two professional men conversing in a well-lit corridor, showcasing teamwork and cooperation."},{"id":"team-member-1","url":"https://images.pexels.com/photos/5716037/pexels-photo-5716037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Colleagues celebrate success with a fist bump over financial charts depicting teamwork and unity."},{"id":"team-member-2","url":"https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Confident African American businesswoman smiling inside a modern office space."},{"id":"testimonial-image-1","url":"https://images.pexels.com/photos/30688912/pexels-photo-30688912.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"A woman enjoying grocery shopping in a vibrant Lagos supermarket aisle."}];
+const assetMap = [{"id":"hero-image","url":"https://images.pexels.com/photos/34301930/pexels-photo-34301930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"High-End Gaming PC Interior with Colorful RGB Lights"},{"id":"feature-image-1","url":"https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Colleagues discussing data and strategy in an office meeting."},{"id":"feature-image-2","url":"https://images.pexels.com/photos/7964501/pexels-photo-7964501.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Two professional men conversing in a well-lit corridor, showcasing teamwork and cooperation."}];
 
 const App = () => {
   return (
@@ -78,7 +78,7 @@ const App = () => {
       <div className="mx-auto px-4 md:px-6">
         <TestimonialCardTwo
           testimonials={[
-            { id: "1", name: "Sarah M.", role: "Director of Operations", testimonial: "The service provided by this company is outstanding!", icon: "Quote" }
+            { id: "1", name: "Sarah M.", role: "Director of Operations", testimonial: "The service provided by this company is outstanding!", icon: Quote }
           ]}
         />
       </div>
