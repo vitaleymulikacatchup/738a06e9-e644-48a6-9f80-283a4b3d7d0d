@@ -78,7 +78,7 @@ const App = () => {
       <div className="mx-auto px-4 md:px-6">
         <TestimonialCardTwo
           testimonials={[
-            { id: "1", name: "Sarah M.", role: "Director of Operations", testimonial: "The service provided by this company is outstanding!", icon: "Quote" }
+            { id: "1", name: "Sarah M.", role: "Director of Operations", testimonial: "The service provided by this company is outstanding!", icon: Quote }
           ]}
         />
       </div>
